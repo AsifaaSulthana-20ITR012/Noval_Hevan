@@ -1,0 +1,30 @@
+#nav-background {
+    min-height: 50px;
+    background: #DBE6F6;
+    background: -webkit-linear-gradient(to left, #C5796D, #DBE6F6);
+    background: linear-gradient(to left, #C5796D, #DBE6F6);
+    opacity: 90%;
+}
+
+#nav-name {
+    padding-left: 20px;
+    color: black;
+    font-weight: 1000;
+    font-size:35px;
+    font-style: italic;
+    float:left;
+}
+
+#nav-content {
+    color: black;
+    padding-left: 20px;
+    font-size:25px;
+    float: right
+}
+
+div #nav-content:hover {
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    text-align: center;
+}
