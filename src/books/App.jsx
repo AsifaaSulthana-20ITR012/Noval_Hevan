@@ -75,7 +75,7 @@ function App() {
         <div style={{ width: '60%', zIndex: 2 }}>
           <InputGroup size='lg' className='mb-3'>
             <Input
-              placeholder='Book Search'
+              placeholder='Book Search (without leaving space...'
               value={query}
               onChange={e => setQuery(e.target.value)}
             />
